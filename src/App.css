@@ -4,7 +4,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 40vmin; /*  전체에 대한 비율  */
   pointer-events: none;
 }
 
@@ -24,10 +24,10 @@
 }
 
 @keyframes App-logo-spin {
-  from {
+  from {  /*출발점*/
     transform: rotate(0deg);
   }
-  to {
+  to {    /*도착점*/
     transform: rotate(360deg);
   }
 }
